@@ -1,0 +1,51 @@
+body {
+  padding-bottom: 150px;
+}
+.bg-light {
+  background-color: #eee !important;
+}
+.navbar-brand {
+  font-size: 30px;
+
+}
+.navbar-light .navbar-brand {
+  color: purple;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #green;
+  font-family: Arial, sans-serif;
+}
+.dropdown-item:hover {
+  background-color: lightblue;
+}
+
+.dropdown-item:last-child {
+  color: purple;
+  font-style: italic;
+}
+.dropdown-menu {
+  background-color: #eee;
+}
+.form-control {
+  border-radius: 0;
+  background-color: #fff;
+}
+textarea#UserMessage.form-control {
+  height: 150px;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem purple;
+}
+button.btn {
+  display: block;
+  margin: 0 auto;
+}
+button.btn.btn-info {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+button.btn.btn-success.btn-center {
+  display: block;
+  width: 100%;
+}
